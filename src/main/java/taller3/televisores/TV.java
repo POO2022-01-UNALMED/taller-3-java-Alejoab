@@ -38,6 +38,10 @@ public class TV {
 			this.canal = canal;
 	}
 	
+	public static void setNumTV(int numTv) {
+		TV.numTV = numTv;
+	}
+	
 	public Marca getMarca() {
 		return marca;
 	}
@@ -59,8 +63,8 @@ public class TV {
 	}
 	
 	
-	public int getNumTV() {
-		return numTV;
+	public static int getNumTV() {
+		return TV.numTV;
 	}
 	
 	
